@@ -6,6 +6,10 @@
 # Git clone
 - git clone girRemoteUrl
 
+## Git Fetch
+- git fetch -p //Remove if deleted from remote
+- git fetch -all // all branch fetch
+
 
 # Git Add existing repo
 - git remote add origin remoteUrl
@@ -28,10 +32,13 @@
 
 
 # Git Delete Branch
+__Use -D instead if you want to force the branch to be deleted, even if it hasn't been pushed or merged yet.
 
 - git branch -d localBranchName
 
 - git push origin --delete remoteBranchName
+
+- git push origin :fix/authentication
 
 # Git History / Diff
 
