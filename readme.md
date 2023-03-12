@@ -1,24 +1,32 @@
-## Git clone
+## Git Commands
+
+# Git Init
 
 
-## Git Add existing repo
+# Git Add existing repo
 
 
-## Git commit && push
+# Git commit && push
 
 
-## Git Reset Cache
+# Git Reset Cache
 
 
-## Git Create branch
+# Git Create branch
 
 
-## Git Delete Branch
+# Git Delete Branch
 
-## Git History / Diff
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+
+# Git History / Diff
 
 
-## Git Unstash
+# Git Unstash
 
-## Git Rollback
+# Git Rollback
 
