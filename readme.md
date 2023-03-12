@@ -12,9 +12,9 @@
 
 
 # Git commit && push
--- git add .
--- git commit -m "Commit message"
--- git push
+- git add .
+- git commit -m "Commit message"
+- git push
 
 
 # Git Reset Cache
