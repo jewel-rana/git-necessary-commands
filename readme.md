@@ -23,6 +23,15 @@
 
 - git push
 
+## Git Revert last commit
+- git revert f4391b2
+
+## GIT RESET COMMIT
+- git reset --soft HEAD~1
+- git reset --hard HEAD~1
+- git reset --mixed HEAD~1
+- git log --oneline #see git commit head
+
 
 ## Git Reset Cache
 
