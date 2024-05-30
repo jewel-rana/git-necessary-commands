@@ -47,21 +47,23 @@
 
 - git branch -d localBranchName
 
-- git push origin --delete remoteBranchName
+- git push origin --delete "remote branch name"
 
 - git push origin :fix/authentication
 
-Use -D instead if you want to force the branch to be deleted, even if it hasn't been pushed or merged yet.
+You can use -D instead to force the branch to be deleted, even if it hasn't been pushed or merged yet.
 
 ## Git History / Diff
 
 
-## Git Stash / Unstash
+## Git Stash / UnStash
 - git stash
-- git stash pop
-- 
-## If you want to preserve the state of files (staged vs. working), use 
-- git stash apply --index  
+- git stash pop #to apply the last stash
+- git stash apply --index #to stash specific index
+- git stash list #to list your stashed changes.
+- git stash show #to see what n is in the below commands.
+- git stash apply #to apply the most recent stash.
+- git stash apply stash@{n} #to apply an older stash.
 
 ## Git Rollback
 - git reset --hard HEAD@{"10 minutes ago"}
