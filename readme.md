@@ -56,7 +56,9 @@ Use -D instead if you want to force the branch to be deleted, even if it hasn't 
 ## Git History / Diff
 
 
-## Git Unstash
+## Git Stash / Unstash
+-git stash
 
 ## Git Rollback
+- git reset --hard HEAD@{"10 minutes ago"}
 
