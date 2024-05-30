@@ -57,7 +57,11 @@ Use -D instead if you want to force the branch to be deleted, even if it hasn't 
 
 
 ## Git Stash / Unstash
--git stash
+- git stash
+- git stash pop
+- 
+## If you want to preserve the state of files (staged vs. working), use 
+- git stash apply --index  
 
 ## Git Rollback
 - git reset --hard HEAD@{"10 minutes ago"}
