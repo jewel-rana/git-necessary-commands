@@ -39,8 +39,8 @@
 
 
 ## Git Create branch
-
 - git checkout -b newBranchName
+- git checkout .
 
 
 ## Git Delete Branch
