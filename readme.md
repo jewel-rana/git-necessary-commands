@@ -69,24 +69,24 @@ You can use -D instead to force the branch to be deleted, even if it hasn't been
 - git reset --hard HEAD@{"10 minutes ago"}
 
 ## Manage Multiple Repository from same code base
-git remote add secondary https://github.com/user/repo2.git
-git push secondary main
-git pull secondary main
-git pull origin main
-git push origin main
+- git remote add secondary https://github.com/user/repo2.git
+- git push secondary main
+- git pull secondary main
+- git pull origin main
+- git push origin main
 
 ## GPG Signed Push
-gpg --version
-gpg --list-secret-keys --keyid-format=long
-gpg --full-generate-key //Generate new key
-gpg --armor --export <your_key_id> // Export gpg key and add to github
-git config --global user.signingkey <your_key_id> //attache signed key for repo
-git config --global commit.gpgsign false //Disable gpg sign
-git config --local commit.gpgsign false //disable repo base
+- gpg --version
+- gpg --list-secret-keys --keyid-format=long
+- gpg --full-generate-key //Generate new key
+- gpg --armor --export <your_key_id> // Export gpg key and add to github
+- git config --global user.signingkey <your_key_id> //attache signed key for repo
+- git config --global commit.gpgsign false //Disable gpg sign
+- git config --local commit.gpgsign false //disable repo base
 
 ### Run and kill gpg agent
-gpgconf --kill gpg-agent
-gpgconf --launch gpg-agent
+- gpgconf --kill gpg-agent
+- gpgconf --launch gpg-agent
 
 
 
