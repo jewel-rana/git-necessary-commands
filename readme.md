@@ -94,7 +94,8 @@ You can use -D instead to force the branch to be deleted, even if it hasn't been
 - git push origin v1.0.0
 
 
-
+- git tag -d v1.0.0         # delete locally
+- git push origin :refs/tags/v1.0.0   # delete remotely
 
 
 
