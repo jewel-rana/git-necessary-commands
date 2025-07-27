@@ -88,6 +88,11 @@ You can use -D instead to force the branch to be deleted, even if it hasn't been
 - gpgconf --kill gpg-agent
 - gpgconf --launch gpg-agent
 
+## Release Version
+- git tag -a v1.0.0 -m "Release version 1.0.0"
+- git push origin HEAD
+- git push origin v1.0.0
+
 
 
 
